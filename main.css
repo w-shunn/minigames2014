@@ -1,0 +1,83 @@
+body {
+    width: 1024px;
+    margin: 0px auto;
+    background: #EEEEEE;
+    font-size : medium;
+    text-align: center;
+    
+}
+
+body header{
+    height: 100px;
+    width: 400px;
+    margin: 10px auto; 
+
+    border: ridge 3px #555555; 
+    background-color: #DDDDDD;
+}
+
+body header h1{
+    text-align: center;
+    
+    font-size : 200%;
+    color: black;
+    
+    margin: 5px auto; 
+}
+
+body header h2{
+    text-align: center;
+    
+    font-size : 140%;
+    color: black;
+    
+    margin: 5px auto; 
+}
+
+/*
+案内部
+*/
+
+.maze {
+    color: black;
+
+    height: 450px;
+    width: 500px;
+    margin: 4px 4px;
+    
+    border: ridge 2px #222222; 
+    background-color: #7C6035;
+
+    float: left;
+}
+
+.bear {
+    color: black;
+
+    height: 450px;
+    width: 500px;
+    margin: 4px 4px;
+    
+    border: ridge 2px #222222; 
+    background-color: #DDDDAA;
+
+    float: right;
+}
+
+.Efil {
+    color: black;
+
+    height: 450px;
+    width: 700px;
+    margin: 4px auto;
+    
+    border: ridge 2px #222222; 
+    background-color: #115555;
+
+    float: none;
+    clear: both;
+}
+
+.title img{
+	margin: 4px 4px;
+}

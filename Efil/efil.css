@@ -1,0 +1,100 @@
+body {
+    width: 1024px;
+    margin: 0px auto;
+    background: #DDDDDD;
+}
+
+/*
+タイトル部
+*/
+
+#title header{
+    height: 50px;
+    width: 400px;
+    margin: 10px auto; 
+
+    border: ridge 10px #0000ff; 
+    background-color: #115555;
+}
+
+#title header h1{
+    text-align: center;
+    color: yellow;
+    font-family:"Monotype Corsiva";
+    font-style: italic;
+    
+    margin: 5px auto; 
+}
+
+/*
+ゲーム部
+*/
+
+#game{
+    width: 528px; 
+    margin: 0px auto;  
+}
+
+#enchant-stage{
+    height: 100%;
+    width: 100%;
+}
+
+
+/*
+案内部
+*/
+
+#caption .text{
+    text-align: center;
+    font-size: 90%;
+    color: black;
+
+    height: 450px;
+    width: 500px;
+    margin: 4px auto;
+    
+    border: ridge 2px #000044; 
+    background-color: #66AAAA;
+}
+
+#caption p{
+    margin: auto 4px;
+
+}
+
+#caption h4{
+    font-size: 110%;
+    font-weight: 800;
+
+    margin: 6px auto;
+}
+
+#caption header{
+    height: 32px;
+    width: 400px;
+    margin: 10px auto; 
+    
+    border: ridge 2px #000044; 
+    background-color: #337777;
+
+    color:black;
+    font-size: large;
+}
+
+/*
+あらすじ部
+*/
+
+#outline{
+    float: left;
+}
+
+/*
+遊び方部
+*/
+
+#howtoplay{
+    float: right;
+}
+
